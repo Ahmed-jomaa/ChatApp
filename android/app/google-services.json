@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "695707424994",
+    "project_id": "dingonew-6e7f1",
+    "storage_bucket": "dingonew-6e7f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695707424994:android:96570012847cd1eaf9a6bb",
+        "android_client_info": {
+          "package_name": "com.example.dingo_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPvvUQIdtOyYslwL1ro0zSNAJkuwkQLGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
