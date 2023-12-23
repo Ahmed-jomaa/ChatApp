@@ -69,7 +69,16 @@ class _ChatsScreenState extends State<ChatsScreen> {
     //display all users except current user
     if (_auth.currentUser!.email != data['email']) {
       return GestureDetector(
-        onTap: () {},
+        onTap: () {
+          {
+           Navigator.push(context, MaterialPageRoute(builder: (context) {
+             return ChatPage(
+               reciverUserEmail: data['email'],
+               reciverUserID: data['uid'],
+             );
+           }));
+         },
+        },
         child: Column(
           children: [ChatListTile(data: data)],
         ),
