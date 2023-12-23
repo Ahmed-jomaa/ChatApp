@@ -88,17 +88,3 @@ class _ChatsScreenState extends State<ChatsScreen> {
     }
   }
 }
-
-
-
-// ListTile(
-//         title: Text(data['email']),
-//         onTap: () {
-//           Navigator.push(context, MaterialPageRoute(builder: (context) {
-//             return ChatPage(
-//               reciverUserEmail: data['email'],
-//               reciverUserID: data['uid'],
-//             );
-//           }));
-//         },
-//       );
